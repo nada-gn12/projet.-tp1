@@ -1,44 +1,37 @@
-
 .div1{
-  width: 300px;
-  height: 300px;
-  background-color: yellow;
-  margin-bottom: 10px;
+    width: 200px;
+    height: 200px;
+    background-color: red;
 }
+
 .div2{
-     width: 400px;
-     height: 200px;
-     background-color: red;
-     margin-bottom: 10px;
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
 }
+
 .div3{
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     background-color: green;
-    margin-bottom: 10px;
-    border-radius: 50%;
 }
-.green{
-     width: 15px;
-     color: green;
+
+.divmaman{
+    display: flex;
+    flex-direction: row;
 }
-.red{
-    width: 22px;
-    color: red;
-}
-.bonjour{
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 200;
-}
-.divmaman1{
+
+.divmaman2{
     display: flex;
     flex-direction: row-reverse;
 }
-.maman2{
-    display: flex;
-    flex-direction: row-reverse;
-}
-.maman3{
+
+.divmaman3{
     display: flex;
     flex-direction: column;
+}
+
+.divmaman4{
+    display: flex;
+    flex-direction: column-reverse;
 }
